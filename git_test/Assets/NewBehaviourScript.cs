@@ -9,7 +9,8 @@ public class NewBehaviourScript : MonoBehaviour
     private Vector3 A;
     private Vector3 B;
     private Vector3 E;
-    private Vector3 R;
+    private Vector3 C;
+    private Vector3 F;
 
 
     // Start is called before the first frame update
