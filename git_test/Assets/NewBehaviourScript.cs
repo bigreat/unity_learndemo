@@ -16,6 +16,8 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         A = transform.forward;
+        
+        
         var roa = transform.rotation;
         Debug.Log(transform.forward);
         //transform.Rotate(dir * angle, Space.World);
