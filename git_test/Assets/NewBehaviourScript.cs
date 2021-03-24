@@ -8,7 +8,6 @@ public class NewBehaviourScript : MonoBehaviour
     public Vector3 dir;
     private Vector3 A;
     private Vector3 B;
-    private Vector3 E;
 
 
 
@@ -17,6 +16,8 @@ public class NewBehaviourScript : MonoBehaviour
     {
         A = transform.forward;
         var roa = transform.rotation;
+
+
         Debug.Log(transform.forward);
         //transform.Rotate(dir * angle, Space.World);
         transform.Rotate(Vector3.forward * angle + Vector3.up * angle);
